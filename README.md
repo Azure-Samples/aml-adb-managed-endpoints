@@ -1,4 +1,4 @@
-# Project Name
+# Deploy models from Azure Databricks to Azure ML in a secure way - Solution Accelerator
 
 (short, 1-3 sentenced, description of the project)
 
