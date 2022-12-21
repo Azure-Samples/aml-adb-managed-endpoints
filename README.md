@@ -8,7 +8,7 @@ Below is a diagram demonstrating the deployment process:
 
 ![](/images/deployment-flow.jpg)
 
-## Prerequisites
+## :blue_book: Prerequisites
 
 1. An Azure subscription. If you don't have an Azure subscription, [create a free account](https://aka.ms/AzureMLFree) before you begin.
 
@@ -127,7 +127,7 @@ deployment = ManagedOnlineDeployment(name=deployment_name,
 ml_client.online_deployments.begin_create_or_update(deployment=deployment)
 ```
 
-## :tada: Check Deployment
+## :tada: Deployment check
 
 After the deployment suceeded we can see the endpoint in the AML Worspace. All the requests will be done in a private context. So, ensure your application has the right network configs.
 
