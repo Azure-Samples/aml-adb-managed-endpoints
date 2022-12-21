@@ -133,7 +133,7 @@ After the deployment suceeded we can see the endpoint in the AML Worspace. All t
 
 ![](/images/endpoint-aml.jpg)
 
-## :exclamation: To-Do
+## :exclamation: TO-DO
 
 - Develop IaC automation to create the resources (Workspace, VNets, etc.)
 - Add DevOps Pipelines to automate the deployment
