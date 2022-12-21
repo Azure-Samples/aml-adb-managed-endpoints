@@ -127,6 +127,8 @@ deployment = ManagedOnlineDeployment(name=deployment_name,
 ml_client.online_deployments.begin_create_or_update(deployment=deployment)
 ```
 
+:tada:
+
 After the deployment suceeded we can see the endpoint in the AML Worspace. All the requests will be done in a private context. So, ensure your application has the right network configs.
 
 ![](/images/endpoint-aml.jpg)
