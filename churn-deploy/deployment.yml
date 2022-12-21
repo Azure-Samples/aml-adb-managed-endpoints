@@ -1,0 +1,24 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: blue
+endpoint_name: placeholder-name
+#egress_public_network_access: disabled
+egress_public_network_access: enabled
+model:
+  path: model/
+code_configuration:
+  code: onlinescoring/
+  scoring_script: score.py
+environment: 
+  image: my-me-image:v1
+  inference_config:
+    liveness_route:
+      port: 5003
+      path: /
+    readiness_route:
+      port: 5003
+      path: /
+    scoring_route:
+      port: 5003
+      path: /score
+instance_type: Standard_F2s_v2
+instance_count: 1

@@ -1,0 +1,13 @@
+databricks_runtime: 10.4.x-cpu-ml-scala2.12
+flavors:
+  python_function:
+    data: model.xgb
+    env: conda.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.8.10
+  xgboost:
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    xgb_version: 1.5.2
+model_uuid: 6690ecb86812489684e0f7a11a7fb8e0
+utc_time_created: '2022-05-09 13:07:02.492798'
