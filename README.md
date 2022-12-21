@@ -132,3 +132,9 @@ ml_client.online_deployments.begin_create_or_update(deployment=deployment)
 After the deployment suceeded we can see the endpoint in the AML Worspace. All the requests will be done in a private context. So, ensure your application has the right network configs.
 
 ![](/images/endpoint-aml.jpg)
+
+## :exclamation: To-Do
+
+- Develop IaC automation to create the resources (Workspace, VNets, etc.)
+- Add DevOps Pipelines to automate the deployment
+- Demonstrate how to use MLFlow models
