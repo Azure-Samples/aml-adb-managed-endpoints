@@ -1,6 +1,12 @@
 # Deploy models from Azure Databricks to Azure ML in a secure way - Solution Accelerator
 
-(short, 1-3 sentenced, description of the project)
+In this repository we will see how to deploy real-time models connecting the Workspaces of Azure Databricks and Azure Machine Learning in a secure way.
+
+As an example, we will use an already-trained Churn prediction model. The model was trained using the XGBoost algorithm and makes a binary prediction to predict Churn (YES/NO). The serialized model can be found in the [directory](churn-deploy/model/).
+
+Below is a diagram demonstrating the deployment process:
+
+![](/images/deployment-flow.jpg)
 
 ## Features
 
